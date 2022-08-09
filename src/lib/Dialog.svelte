@@ -41,11 +41,12 @@
     position: absolute;
     width: 100vw;
     height: 100vh;
-    background: black;
-    background: rgba(0, 0, 0, 0.8);
+    background: white;
+    background: rgba(255, 255, 255, 0.5);
     backdrop-filter: blur(2px);
     -webkit-backdrop-filter: blur(2px);
   }
+
   dialog {
     position: fixed;
     top: 40vh;
@@ -57,6 +58,7 @@
     border-radius: 0.5rem;
     box-sizing: border-box;
   }
+
   .DialogContent {
     font-weight: 600;
     display: flex;
@@ -64,6 +66,7 @@
     align-items: center;
     font-size: 1.5rem;
   }
+
   button {
     background-color: tomato;
     border: none;
